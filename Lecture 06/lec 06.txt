@@ -1,0 +1,125 @@
+FORMS
+<input type="text">	Displays a single-line text input field
+<input type="radio">	Displays a radio button (for selecting one of many choices)
+<input type="checkbox">	Displays a checkbox (for selecting zero or more of many choices)
+<input type="submit">	Displays a submit button (for submitting the form)
+<input type="button">	Displays a clickable button
+
+name, value, placeholder
+
+link mailto: tel:
+
+accept-charset	Specifies the character encodings used for form submission
+action	Specifies where to send the form-data when a form is submitted
+autocomplete	Specifies whether a form should have autocomplete on or off
+enctype	Specifies how the form-data should be encoded when submitting it to the server (only for method="post")
+method	Specifies the HTTP method to use when sending form-data
+name	Specifies the name of the form
+novalidate	Specifies that the form should not be validated when submitted
+rel	Specifies the relationship between a linked resource and the current document
+target	Specifies where to display the response that is received after submitting the form
+
+
+
+<select id="cars" name="cars" size="4" multiple>
+  <option value="volvo">Volvo</option>
+  <option value="saab" selected>Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select>
+
+<input list="browsers">
+<datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+
+<fieldset>
+    <legend>Personalia:</legend>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+
+<textarea name="message" style="width:200px; height:600px;">
+The cat was playing in the garden.
+</textarea>
+
+
+
+
+
+
+
+
+Universal Selector, Group elements, element.class
+
+Box Model:
+Content
+Padding
+Border
+
+dotted - Defines a dotted border
+dashed - Defines a dashed border
+solid - Defines a solid border
+double - Defines a double border
+groove - Defines a 3D grooved border. The effect depends on the border-color value
+ridge - Defines a 3D ridged border. The effect depends on the border-color value
+inset - Defines a 3D inset border. The effect depends on the border-color value
+outset - Defines a 3D outset border. The effect depends on the border-color value
+none - Defines no border
+hidden - Defines a hidden border
+	width,color,sides,shorthand,rounded corners
+Outline
+Margin
+
+Height Width
+
+
+TEXT FORMATTING
+
+	Colors, Alignments (text-align: left,center,right, justify) (text-align-last)(direction, unicode-bidi:bidi-override)
+		           (vertical-align: sub,super,text-bottom,text-top,baseline)
+	letter-spacing	Specifies the space between characters in a text
+	line-height	Specifies the line height
+	text-indent	Specifies the indentation of the first line in a text-block
+	white-space	Specifies how to handle white-space inside an element
+	word-spacing	Specifies the space between words in a text
+	h1 {
+	  color: white;
+  	text-shadow: 2px 2px 4px #000000;
+	   }
+Fonts
+Serif:
+	Times New Roman
+	Georgia
+	Garamond
+Sans-serif:
+	Arial
+	Verdana
+	Helvetica
+Monospace:
+	Courier New
+	Lucida Console
+	Monaco
+Cursive:
+	Brush Script MT
+	Lucida Handwriting
+Fantasy:
+	Copperplate
+	Papyrus
+
+font-style(normal,italic,oblique) font-weight(normal,bold,bolder) font-variant(normal,small-caps)
+font-size
+google fonts
+
+LINKS:
+a:link - a normal, unvisited link
+a:visited - a link the user has visited
+a:hover - a link when the user mouses over it
+a:active - a link the moment it is clicked

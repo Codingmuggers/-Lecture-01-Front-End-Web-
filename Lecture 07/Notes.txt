@@ -1,0 +1,64 @@
+Box Model:
+Content
+Padding
+Border
+
+dotted - Defines a dotted border
+dashed - Defines a dashed border
+solid - Defines a solid border
+double - Defines a double border
+groove - Defines a 3D grooved border. The effect depends on the border-color value
+ridge - Defines a 3D ridged border. The effect depends on the border-color value
+inset - Defines a 3D inset border. The effect depends on the border-color value
+outset - Defines a 3D outset border. The effect depends on the border-color value
+none - Defines no border
+hidden - Defines a hidden border
+	width,color,sides,shorthand,rounded corners
+Outline
+Margin
+
+Height Width
+
+
+TEXT FORMATTING
+
+	Colors, Alignments (text-align: left,center,right, justify) (text-align-last)(direction, unicode-bidi:bidi-override)
+		           (vertical-align: sub,super,text-bottom,text-top,baseline)
+	letter-spacing	Specifies the space between characters in a text
+	line-height	Specifies the line height
+	text-indent	Specifies the indentation of the first line in a text-block
+	white-space	Specifies how to handle white-space inside an element
+	word-spacing	Specifies the space between words in a text
+	h1 {
+	  color: white;
+  	text-shadow: 2px 2px 4px #000000;
+	   }
+Fonts
+Serif:
+	Times New Roman
+	Georgia
+	Garamond
+Sans-serif:
+	Arial
+	Verdana
+	Helvetica
+Monospace:
+	Courier New
+	Lucida Console
+	Monaco
+Cursive:
+	Brush Script MT
+	Lucida Handwriting
+Fantasy:
+	Copperplate
+	Papyrus
+
+font-style(normal,italic,oblique) font-weight(normal,bold,bolder) font-variant(normal,small-caps)
+font-size
+google fonts
+
+LINKS:
+a:link - a normal, unvisited link
+a:visited - a link the user has visited
+a:hover - a link when the user mouses over it
+a:active - a link the moment it is clicked

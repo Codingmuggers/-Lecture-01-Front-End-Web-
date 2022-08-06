@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Blog page</title>
+	</head>
+	<style type="text/css">
+	@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+	body{
+		margin: 0;
+		padding: 0;
+	font-family: Merienda One;
+	}
+	footer{
+		background-color: gray;
+		position: relative;
+		bottom: 0;
+	}
+	.logo{
+		width: 240px;
+		height: 110px;
+	}
+	.navigation li{
+	list-style: none;
+	float: left;
+	margin-right: 20px;
+	font-size: 22px;
+	}
+	.navigation{
+		position: absolute;
+		right: 10px;
+		top: 30px;
+	}
+	nav {
+		border-bottom: solid 1px;
+	}
+	article{
+		margin-left: 40px;
+		width: 50%;
+	}
+	.blogimage{
+		width: 400px;
+		height: 200px;
+	}
+	.heading{
+		text-transform: uppercase;
+		font-style: italic;
+		text-decoration: underline;
+		font-weight: bold;
+	}
+	.content{
+		margin-left: 40px;
+		width: 30%;
+	}
+	.content p{
+		color: #fff;
+		margin: 0;
+	}
+	.bottomlist{
+		position: relative ;
+		margin-left: 35%;
+		top: -100px;
+	}
+	address{
+		position: absolute;
+		right: 20px;
+		bottom: 100px;
+	}
+	.para{
+		color: red;
+	}
+	</style>
+	<body>
+		<!-- NAVIGATION -->
+		<nav>
+			<!-- logo -->
+			<img class="logo" src="images/logo.png">
+			<!-- navigation links -->
+			<ul class="navigation">
+				<a href=""><li>Home</li></a>
+				<a href="about.html"><li>About Us</li></a>
+				<a href=""><li>Services</li></a>
+				<a href=""><li>Contact Us</li></a>
+			</ul>
+		</nav>
+		<!-- Main article -->
+		<article>
+			<h1 class="heading">Sublime text editor</h1>
+			<h4>By: Yash </h4>
+			<img class="blogimage" src="images/sublime.png">
+			<figcaption>Sublime text Interface</figcaption>
+			<h3 class="heading" >Column selection and multi-select editing</h3>
+			<p class="para">
+				With this feature a user can select entire text columns at once, or place more than one cursor in the text. This allows for simultaneous editing.<br> The cursors behave as if each of them was the only one in the text, moving independently in the same manner. Including to move by one character, by line, by words, and by subwords (CamelCase, hyphen or underscore delimited), and move to beginning/end of line. <br>This allows editing complex repetitive structures without the use macros or regexes.[9]
+				<br><br>
+				Version 4 was released on 20 May 2021.[17] Major new features included a project-wide context-sensitive auto completion, tab multi-select and support for darkmode. The new version introduced hardware accelerated rendering using OpenGL for large display resolutions and native Apple M1 and ARM64 support. It also shipped internal performance optimizations and updates such as a new Python 3.8 plugin host and extended APIs for extended plugin development.
+			</p>
+		</article>
+		<!-- form -->
+		<!-- Footer -->
+		<footer>
+			<div class="content">
+				<h2>Codingmuggers</h2>
+				<p>We are to serve the Nation. We want everyone to have hands on technical skills. </p>
+			</div>
+			<div class="bottomlist">
+				<h3>Fast Links:</h3>
+				<ul>
+					<a href=""><li>Home</li></a>
+					<a href=""><li>About Us</li></a>
+					<a href=""><li>Services</li></a>
+					<a href=""><li>Contact Us</li></a>
+				</ul>
+			</div>
+			<address>
+				<h2>Address</h2>
+				#31, 4th Floor <br>
+				Purani chungi, G.t.Road <br>
+				Amritsar
+			</address>
+		</footer>
+	</body>
+</html>

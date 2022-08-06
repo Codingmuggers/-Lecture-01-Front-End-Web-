@@ -1,0 +1,27 @@
+/*div > p{
+	color: red;
+}
+
+.sec{
+	height: 100px;
+	background: lightblue;
+}*/
+/*div ~ p{
+	color: red;
+}
+
+
+*/
+
+/*p:first-child{
+	color: red;
+}*/
+
+/*p i:first-child{
+	color: red;
+}
+
+*/
+/*p:first-child i {
+  color: red;
+}*/

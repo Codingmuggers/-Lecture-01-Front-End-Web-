@@ -1,0 +1,26 @@
+Images 
+Backgrounds and
+Element Selectors
+
+Class and Ids
+
+
+<code>	Defines programming code
+<kbd>	Defines keyboard input 
+<samp>	Defines computer output
+<var>	Defines a variable
+<pre>	Defines preformatted text
+
+<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+
+Image Borders
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+
+<picture>
+  <source media="(min-width: 650px)" srcset="img_food.jpg">
+  <source media="(min-width: 465px)" srcset="img_car.jpg">
+  <img src="img_girl.jpg" style="width:auto;">
+</picture>
+
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">

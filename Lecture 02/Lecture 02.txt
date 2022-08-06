@@ -1,0 +1,49 @@
+#formatting
+<b>	Defines bold text
+<em>	Defines emphasized text 
+<i>	Defines a part of text in an alternate voice or mood
+<small>	Defines smaller text
+<strong>Defines important text
+<sub>	Defines subscripted text
+<sup>	Defines superscripted text
+<ins>	Defines inserted text
+<u>	Defines Underlined Text
+<del>	Defines deleted text
+<mark>	Defines marked/highlighted text
+
+#Qutations/ citation
+
+<abbr title=""> 	Defines an abbreviation or acronym
+<address>	        Defines contact information for the author/owner of a document
+<bdo dir="rtl">		Defines the text direction
+<blockquote cite="url">	Defines a section that is quoted from another source
+<cite>			Defines the title of a work
+<q>			Defines a short inline quotation
+	
+#Comments
+<!--This is a comment-->
+
+
+
+
+#Tables
+	
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+	
+#Lists
+	ul list-style-type
+	ol type

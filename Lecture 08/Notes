@@ -1,0 +1,31 @@
+
+Lists  
+list-style-type: ; cirlce square upper-roman lower-alpha none
+  list-style-image: url('any.jpg');
+  list-style-position: ;  inside outside
+	colors with lists
+  
+Tables
+
+	border: 1px solid;
+        border-collapse: collapse;
+
+	table size
+	table alignments text, vertical
+	tr:hover {background-color: coral;}
+
+	tr:nth-child(even) {background-color: #f2f2f2;}
+	responsive: <div style="overflow-x:auto;"
+
+
+
+display: block, none, inline (for horizontal lists)
+
+visibility: hidden, 1
+
+
+width, max-width, margin: auto
+
+position: static,absolute, relative, fixed, sticky
+overflow: visible, hidden, scroll, auto
+float: left, right, none

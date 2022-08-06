@@ -1,0 +1,52 @@
+
+:root{
+  --basecolor: red;
+}
+var(--basecolor);
+
+
+
+
+
+opacity ranges from 0 to 1
+Dropdowns
+
+
+a[target="_blank"] 
+[title~="flower"]
+
+| exact with hyphen
+^ start with exact
+$ end with exact
+* all
+
+
+
+
+
+em	Relative to the font-size of the element (2em means 2 times the size of the current font)	
+ex	Relative to the x-height of the current font (rarely used)	
+ch	Relative to width of the "0" (zero)	
+rem	Relative to font-size of the root element	
+vw	Relative to 1% of the width of the viewport*	
+vh	Relative to 1% of the height of the viewport*	
+vmin	Relative to 1% of viewport's* smaller dimension	
+vmax	Relative to 1% of viewport's* larger dimension	
+%	Relative to the parent element
+
+
+Priority
+
+p				                  1	1
+p.test			              11	1 + 10
+p#demo				            101	1 + 100
+<p style="color: pink;">	1000	1000
+#demo				              100	100
+.test				              10	10
+p.test1.test2			        21	1 + 10 + 10
+#navbar p#demo			      201	100 + 1 + 100
+*				                  0	0 (the universal selector is ignored)
+
+
+!imporatnt 
+

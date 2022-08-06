@@ -1,0 +1,159 @@
+/*div{
+	width: 200px;
+	height: 200px;
+	border: solid 1px lightgreen;
+	float: left;
+	margin: 0 20px;
+	margin: auto;
+	overflow: hidden;
+}
+*/
+
+
+
+
+/*.margin{
+	width: 200px;
+	height: 100px;
+	background-color: red;
+	margin: auto;
+	color: white;
+}
+
+h4{
+		padding: 40px 0; 
+}*/
+/*.red{
+	background-color: red;
+	position: absolute;
+	z-index: 2;
+
+}
+.blue{
+	position: absolute;
+	left: 250px;
+	background-color: blue;
+	margin: 0 -40px;
+	z-index: 0;
+
+}
+
+.green{
+	background-color: green;
+	position: absolute;
+	z-index: 1;
+	left: 160px;
+	top: 200px;
+}
+*/
+/*.sticky{
+	position: sticky;
+	top: 40px;
+	width: 100%;
+	background-color: lightgreen;
+}*/
+
+
+/*div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}*/
+/*.first{
+	width: 500px;
+	height: 200px;
+	border: solid 1px lightgreen;
+	background-color: red;
+}
+
+.div{
+	max-width: 500px;
+	height: 200px;
+	border: solid 1px lightgreen;
+	background-color: green;
+
+}
+*/
+/*.veiw{
+	height: 20px;
+	border: solid 1px lightgreen;
+	position: absolute;
+	background-color: red;
+	top: 2000px;
+}*/
+
+
+
+/*div{
+	width: 100px;
+	height: 100px;
+	box-shadow: 2px 3px 5px blue;
+	background-color: green;
+}
+
+div:hover{
+	display: none;
+	visibility: hidden;
+}
+*/
+/*li{
+	display: inline;
+}
+*/
+/*.span{
+		background-color: lightblue;
+		width: 40px;
+		height: 30px;
+		display: inline-block;
+}*/
+ul{
+	/*list-style-image: url('https://cdn-icons-png.flaticon.com/512/744/744465.png');*/
+	/*list-style-position: outside;*/
+/*	background-color: orange;
+	width: 33%;*/
+}
+
+/*li{
+	background-color: gray;
+	margin: 5px;
+}
+
+*/
+/*
+table, td, th{
+	border: solid 1px;
+	border-collapse: collapse ;
+}
+/*.th{
+	background-color: green;
+}
+.th:hover{
+	background-color: green;
+
+}*/
+/*tr{
+	height: 50px;
+}
+
+td{
+	width: 100px;
+	text-align: center;
+	vertical-align: top;
+}*/
+
+/*tr:hover{
+	background-color: orange;
+}*/
+
+/*tr:nth-child(odd){
+
+	background-color: grey;
+}
+
+.div{
+	width: 50%;
+	height: 200px;
+}*/

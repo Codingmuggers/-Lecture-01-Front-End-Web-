@@ -1,0 +1,46 @@
+/*.serif{
+
+ font-family:  Garamond;
+ font-size: 20px;
+ font-style: oblique;
+
+
+
+}
+
+.sans{
+font-family: Arial;
+ font-size: 20px;
+ font-style: italic;
+	font-variant: small-caps;
+
+}
+.mono{
+	font-family: Lucida Console;
+	font-variant: small-caps;
+}
+
+.cursive{
+	font-family: Lucida Handwriting;
+}
+.fantasy{
+	font-family: Papyrus;
+}*/
+
+a:visited{
+	color: green;
+}
+
+a:link{
+	color: yellow;
+	text-decoration: none;
+}
+
+a:hover{
+	color: brown;
+	font-size: 20px;
+	font-family: Papyrus ;
+}
+a:active{
+	color: gray;
+}
