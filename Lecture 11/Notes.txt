@@ -1,0 +1,102 @@
+
+
+#example1 {
+  background-image: url(img_flwr.gif), url(paper.gif);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+}
+#div1 {
+  background: url(img_flower.jpg);
+  background-size: 100px 80px;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+#borderimg {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(border.png) 30 stretch;
+}
+
+bg-iamge: Linear gradient , direction rgba and angle  ( color %, color %)
+
+background-image: radial-gradient(circle, red, yellow, green);
+
+
+
+ background-image: conic-gradient(red, yellow, green, blue, black);
+
+#grad {
+  background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);
+  border-radius: 50%;
+}
+from 90deg,
+
+repeating- use %
+
+
+
+
+p.test1 {
+  writing-mode: horizontal-tb; 
+}
+
+span.test2 {
+  writing-mode: vertical-rl; 
+}
+
+
+
+
+
+CSS 2D Transforms Methods
+transform()
+
+translate() , Changes Location   X Or Y also
+rotate()    , deg negative also
+scale()
+scaleX()  
+scaleY()
+skewX()
+skewY()
+skew()
+matrix()   ,
+matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY())
+
+3D Transforms
+rotateX()
+rotateY()
+rotateZ()
+
+
+
+Transitions
+#div1 {transition-timing-function: linear;}
+#div2 {transition-timing-function: ease;}
+#div3 {transition-timing-function: ease-in;}
+#div4 {transition-timing-function: ease-out;}
+#div5 {transition-timing-function: ease-in-out;}
+
+for particulat propety transitions 
+write property time
+
+transition-delay: 1s;
+
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s, height 5s, transform 2s;
+}
+
+div:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+}
+
+
+transition: width 2s linear 1s;
