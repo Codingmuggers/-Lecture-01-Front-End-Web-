@@ -1,0 +1,56 @@
+@keyframes
+animation-name
+animation-duration
+animation-delay
+animation-iteration-count
+animation-direction
+animation-timing-function
+animation-fill-mode
+animation
+
+Rounded Images
+Thumbnail Images
+Responsive Images
+
+
+Reflections
+
+ box-reflect: below;
+
+
+
+Fitting Images
+
+.fill {object-fit: fill;}
+
+.contain {object-fit: contain;}
+.scale-down {object-fit: scale-down;}
+
+.cover {object-fit: cover;}
+
+.none {object-fit: none;}
+
+
+  object-position: 80% 100%;
+
+
+MASKING
+
+  mask-image: url(.png);
+  mask-image: linear-gradient(black, transparent);
+    mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5) 50%);
+
+
+Button Stylings
+	Disbled button
+	Cursors. 
+
+
+FLEXBOX
+
+flex-direction
+flex-wrap
+flex-flow
+justify-content
+align-items
+align-content

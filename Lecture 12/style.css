@@ -1,0 +1,94 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/*.animated{
+	height: 200px;
+	width: 200px;
+	background-color: red;
+	animation-name: fade;
+	animation-duration: 4s;
+	animation-delay: 1s;
+	animation-iteration-count: infinite ;
+}
+*/
+/*
+@keyframes fade{
+	from{}
+	to{ background-color: blue; width: 400px;height: 400px;}
+}*/
+
+/*@keyframes fade{
+	0%{}
+	25%{background-color: blue;}
+	50%{background-color: green; }
+	75%{background-color: yellow;}
+	100%{background-color: pink; }
+
+}*/
+
+.image{
+	/*border-radius: 50px;*/
+	/*border: solid 10px white;
+	outline: solid 1px;*/
+	/*max-width: 420px;*/
+	/*-webkit-box-reflect: right 10px;*/
+}
+
+/*.image{
+	height: 300px;
+	width: 200px;
+	object-fit: cover;
+	object-position: 100% 100%;
+}
+*/
+
+
+
+.image{
+	/*mask-image: url('https://static.vecteezy.com/system/resources/previews/001/849/553/original/modern-gold-background-free-vector.jpg');*/
+	/*mask-image: linear-gradient(to right, red, transparent) ;*/
+	/*mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5) 50%)*/
+}
+
+
+/*.btn{
+	width: 50px;
+	height: 50px;
+	font-family: Times New Roman;
+	font-size: 12px;
+	color: #fff;
+	background-color: lightcoral;
+	position: absolute;
+	top: 50px;
+	left: 200px;
+}*/
+
+.btn{
+	/*cursor: pointer;*/
+	/*cursor: not-allowed;*/
+
+}
+
+
+/*a{
+	text-decoration: none;
+	color: #fff;
+	cursor: not-allowed;
+}*/
+
+.box{
+	width: 100px;
+	height: 100px;
+	/*color: #fff;*/
+	margin: 5px 5px;
+	background-color: #fff;
+	/*float: left;*/
+}
+
+.flexwrap{
+	height: 350px;
+	display: flex;
+	background-color: blue;
+}
