@@ -1,0 +1,148 @@
+filter: blur(px) || brightness() || contrast() || drop-shadow(h v b) || grayscale() || hue-rotate(deg) || invert() || opacity() || saturate() || sepia()
+
+accent-color
+
+Following Are the Properties of FlexBox for Containers:
+
+flex-direction    :  column, row, row-reverse, column-reverse
+flex-wrap	        :  wrap, nowrap, wrap-reverse  
+flex-flow         :  direction, wrap   (shorthand)
+justify-content   :  center, flex-start, flex-end, space-around, space-between  (Horizontally)
+align-items	  :  center, flex-start, flex-end, stretch, baseline  (vertically)
+
+Following Are the Properties of FlexBox for Items
+
+order          :  Defines order of elements values in 1 to n 
+flex-grow      :  Defines speed of growing of element values in 1 to n
+flex-shrink    :  Defines how much items shrinks on resizing 
+align-self     :  Same as align-items
+
+
+For responsiveness we can use them by changing flex directions
+
+
+Example
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-left {
+  background-color: #f1f1f1;
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  background-color: dodgerblue;
+  padding: 10px;
+  flex: 50%;
+}
+
+@media (max-width: 800px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+}
+
+<div class="flex-container">
+  <div class="flex-item-left">1</div>
+  <div class="flex-item-right">2</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+Image gallery using Flexbox
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+ <h1>Responsive Image Gallery</h1>
+
+<div class="row"> 
+  <div class="column">
+    <img src="" style="width:100%">
+    <img src="" style="width:100%">
+    <img src="" style="width:100%">
+    <img src="" style="width:100%">
+  </div>
+ <div class="column">
+    <img src="" style="width:100%">
+    <img src="" style="width:100%">
+    <img src="" style="width:100%">
+    <img src="" style="width:100%">
+  </div> 
+  <div class="column">
+    <img src="" style="width:100%">
+    <img src="" style="width:100%">
+    <img src="" style="width:100%">
+    <img src="" style="width:100%">
+  </div> 
+  <div class="column">
+    <img src="" style="width:100%">
+    <img src="" style="width:100%">
+    <img src="" style="width:100%">
+    <img src="" style="width:100%">
+  </div>
+
+</div>
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+No. of grids in screen
+
+@media only screen and (max-width: 375px){
+
+
+  
+}
+
+
+
+Breakpoints
