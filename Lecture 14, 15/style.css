@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+body{
+	margin: 0;
+	
+	padding: 0;
+	font-family: nunito;
+	color: #fff;
+	background-color: #191c19;
+}
+
+/*.resp{
+	height: 200px;
+	width: 200px;
+	background-color: lightcoral;
+}
+
+
+@media only screen and (max-width: 426px){
+
+.hidden{
+	display: none;
+}
+  .resp{
+	background-color: red;
+}
+}
+
+
+@media only screen and (max-width: 376px){
+
+}*/
+.navigation{
+border: solid 2px #efad03;
+	border-right: 0;
+	border-left: 0;
+}
+
+ul{
+	list-style: none;
+	margin-right: 25px;
+	display: flex;
+	flex-direction: left;
+	justify-content: flex-end;
+}
+
+li{
+	margin-left: 15px;
+	font-weight: bold;
+	padding: 4px 5px;
+}
+li:hover{
+	background-color: #ffd249;
+	color: black;
+	box-shadow: 1px 1px 4px black;
+	border-radius: 5px;
+}
+
+button:hover{
+	transform: scale(1.1,1.1);
+}
+
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+.main{
+	display: flex;
+	flex-direction: left;
+	margin-top: 100px;
+	/*flex: 50%;*/
+}
+.width{
+	width: 50%;
+}
+.contentin{
+	margin: 0 40px;
+}
+
+.btn{
+	width: 100px;
+	height: 50px;
+	border-radius: 20px;
+	background-color:  #ffd249;
+}
+.btn>a{
+	color: #000;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.photo{
+	display: flex;
+	justify-content: center;
+}
+.steve{
+	position: absolute;
+	transform: scale(0.7,0.7);
+	top: 30px ;
+	left: 50%;
+}
+
+p{
+	text-align: justify;
+}
+
+
+.mywork{
+	display: flex;
+	flex-direction: left;
+	align-items: center;
+	margin-top: 100px;
+	height: 100vh;
+}
+
+.cards{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: left;
+}
+.card{ 
+	width: 240px; 
+	height: 300px; 
+	background-color: #fff;
+	margin: 0 20px;
+  background-color: #191c19 ; 
+  box-shadow: 1px 1px 10px gold ; 
+	display: flex; 
+ justify-content: center; 
+ flex-direction: column;
+}
+.card:hover{
+	transform: rotate(10deg);
+}
+.img{
+	transform: scale(0.2,0.2);
+	margin-top: -90px;
+}
+
+.hold{
+	padding: 0 20px;
+	margin-top: -100px;
+}
+
+/*ABOUT US*/
+.about{
+	display: flex;
+	flex-direction: left;
+	height: 100vh;
+	align-items: center;
+	/*flex: 50%;*/
+}
+
+/*Contactme*/
+
+.contact{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+
+}
+
+.mainform{
+	display: flex;
+	flex-direction: column;
+}
+
+.input{
+	width: 500px;
+	margin-bottom: 20px;
+}
+
+.text{
+	background-color: #ffd249;
+	color: black;
+	border: solid 1px black;
+	border-radius: 3px;
+	height: 25px;
+}
+
+.messege{
+	height: 140px;
+	border: solid 1px #ffd249;
+	background-color: #191c19 ;
+	color: #fff;
+}
+
+.submit{
+	height: 30px;
+	background-color: gold;
+	border-radius: 5px;
+}
+
+.submit:hover{
+	cursor: pointer;
+}
+.copy{
+	background-color: goldenrod;
+	width: 100%;
+}
+
+@media only screen and (max-width: 769px){
+
+.steve{
+	left: 37%;
+	top: 80px;
+}
+
+.mywork{
+	flex-direction: column;
+}
+.width{
+	width: 90%;
+
+}
+.work{
+	margin-bottom: 50px;
+}
+
+
+.about{
+	margin-top: 200px;
+}
+.hide{
+	display: none;
+}
+
+.contact{
+	height: 50vh;
+}
+
+}
+
+
+@media only screen and (max-width: 426px){
+
+
+.main{
+	display: flex;
+	flex-direction: column;
+	margin-top: 40px;
+	/*flex: 50%;*/
+}
+.content{
+	margin-bottom: 50px;
+}
+.steve{
+	display: none;
+}
+.about{
+	display: flex;
+	flex-direction: column;
+	height: 50vh;
+	align-items: center;
+	margin-top: 700px;
+	/*flex: 50%;*/
+}
+
+
+.contact{
+	margin-top: 450px;
+	margin-bottom: 100px;
+}
+.cards{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.margin{
+	margin-top: 50px;
+}
+.mywork{
+	height: 65vh;
+}
+.input{
+	width: 350px;
+}
+
+}
